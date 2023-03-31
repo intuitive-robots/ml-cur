@@ -1,8 +1,7 @@
----
-title: Curriculum Based Imitation of Versatile Skills
----
+# Curriculum Based Imitation of Versatile Skills
+
 {:refdef: style="text-align: center;"}
-[:page_facing_up: PDF](/docs/Li2023CurriculumBasedImitation.pdf) [:computer: Code]([/docs/Li2023CurriculumBasedImitation.pdf](https://github.com/intuitive-robots/ml-cur))
+[Download the PDF](/docs/Li2023CurriculumBasedImitation.pdf) [Access Code](https://github.com/intuitive-robots/ml-cur)
 {: refdef}
 
 ## Abstract
