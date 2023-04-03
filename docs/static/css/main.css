@@ -1085,3 +1085,20 @@ ul.share li:hover .fab {
   overflow-x: auto;
   overflow-y: hidden;
 }
+
+
+video {
+  /* override other styles to make responsive */
+  width: 100% !important;
+  height: auto !important;
+}
+
+video.half {
+  /* override other styles to make responsive */
+  width: 45% !important;
+  height: auto !important;
+}
+
+video.margin-5 {
+  margin-right: 4%;
+}

@@ -1,3 +1,5 @@
+###
+{{< doublevideo src1="img/obstacle_avoidance.webm" src2="img/table_tennis.webm">}}
 # Abstract
 Learning skills by imitation is a promising concept for the intuitive teaching of robots. A common way to learn such skills is to learn a parametric model by maximizing the likelihood given the demonstrations. 
 
