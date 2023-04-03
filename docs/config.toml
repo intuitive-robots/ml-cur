@@ -1,0 +1,62 @@
+baseurl = "https://intuitive-robots.github.io/ml-cur/"
+DefaultContentLanguage = "en"
+title = "Curriculum Based Imitation of Versatile Skills"
+theme = "beautifulhugo"
+#pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+#pygmentsCodefencesGuessSyntax = true
+#pygmentsUseClassic = true
+#pygmentOptions = "linenos=inline"
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
+
+[Params]
+  homeTitle = "Curriculum Based Imitation of Versatile Skills" # Set a different text for the header on the home page
+  #subtitle = "Build a beautiful and simple website in minutes"
+  #mainSections = ["post","posts"]
+  logo = "img/IRL_Logo_Icon_blue.svg" # Expecting square dimensions
+  favicon = "img/IRL_Logo_Icon_blue.svg"
+  dateFormat = "January 2, 2006"
+  commit = false
+  #rss = true
+  comments = false
+  readingTime = false
+  wordCount = false
+  useHLJS = false
+  socialShare = false
+  delayDisqus = false
+  showRelatedPosts = false
+#  hideAuthor = true
+#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+
+#[[Params.bigimg]]
+#  src = "img/triangle.jpg"
+#  desc = "Triangle"
+#[[Params.bigimg]]
+#  src = "img/sphere.jpg"
+#  desc = "Sphere"
+#  # position: see values of CSS background-position.
+#  position = "center top"
+#[[Params.bigimg]]
+#  src = "img/hexagon.jpg"
+#  desc = "Hexagon"
+
+[Author]
+  # Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
+  name = "Maximilian Li"
+#  website = "yourwebsite.com"
+  email = "maximilian.li@kit.edu"
+#  facebook = "username"
+  github = "https://github.com/intuitive-robots/ml-cur"
+
+
+[[menu.main]]
+    name = "Paper"
+    url = "pdf/Li2023Curriculum.pdf"
+    weight = 1
+
+[[menu.main]]
+    name = "Code"
+    url = "https://github.com/intuitive-robots/ml-cur"
+    weight = 3
