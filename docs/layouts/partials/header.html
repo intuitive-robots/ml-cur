@@ -64,9 +64,20 @@
             {{ end }}
             {{ if $subtitle }}
             {{ if eq .Type "page" }}
-            <span class="{{ .Type }}-subheading">{{ $subtitle }}</span>
+
+
+
+            <h2 class="{{ .Type }}-subheading">
+              <a href="mailto:maximilian.li@kit.edu" title="Email me">Maximilian&nbsp;Xiling&nbsp;Li</a>,
+              Onur&nbsp;Celik,
+              Philipp&nbsp;Becker,
+              Denis&nbsp;Blessing,
+              Rudolf&nbsp;Lioutikov,
+              Gerhard&nbsp;Neumann
+            </h2>
+            <h3 class="{{ .Type }}-subsubheading">Karlsruhe Institute of Technology, Germany</h3>
             {{ else }}
-            <h2 class="{{ .Type }}-subheading">{{ $subtitle }}</h2>
+            <h2 class="{{ .Type }}-subsubheading">{{ $subtitle }}</h2>
             {{ end }}
             {{ end }}
             {{ if eq .Type "post" }}

@@ -13,7 +13,7 @@ pygmentsCodeFences = true
 
 [Params]
   homeTitle = "Curriculum Based Imitation of Versatile Skills" # Set a different text for the header on the home page
-  subtitle = "Intuitive Robots Lab at Karlsruhe Institute of Technology, Germany"
+  subtitle = "Maximilian Xiling Li, Philipp Becker, Onur Celik, Denis Blessing, Rudolf Lioutikov, Gerhard Neumann"
   #mainSections = ["post","posts"]
   logo = "img/IRL_Logo_Icon_blue.svg" # Expecting square dimensions
   favicon = "img/IRL_Logo_Icon_blue.svg"

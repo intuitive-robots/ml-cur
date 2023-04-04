@@ -8,28 +8,15 @@
 
 {{ $video_one := printf "%s%s" $path (.Get "src1") }}
 {{ $video_two := printf "%s%s" $path (.Get "src2") }}
-{{ $video_type := substr (.Get "src") -1 4 }}
-{{ if .Get "library" }}
-{{ $video = $video | relURL }}
-{{ end }}
 
-{{ $poster := printf "%s%s%s" $path (substr (.Get "src") 0 -4) ".jpg" }}
-{{ $has_poster := fileExists (printf "%s%s" $root_dir $poster) }}
-{{ if and $has_poster (.Get "library") }}
-{{ $poster = $poster | relURL }}
-{{ else if $has_poster }}
-{{ $poster = $poster }}
-{{ else }}
-{{ $poster = "" }}
-{{ end }}
 
-<div class="col-lg-6">
-    <video {{if (.Get "controls" )}}controls{{else}}autoplay loop{{end}} {{with $poster}}poster="{{.}}" {{end}}>
+<div class="col-lg-6" style="padding-left: 0; padding-top: 10px;">
+    <video controls autoplay muted loop>
         <source src="{{ $video_one }}" type="video/webm">
     </video>
 </div>
-<div class="col-lg-6">
-    <video {{if (.Get "controls" )}}controls{{else}}autoplay loop{{end}} {{with $poster}}poster="{{.}}" {{end}}>
+<div class="col-lg-6" style="padding-right: 0; padding-top: 10px; padding-bottom: 20px;">
+    <video controls autoplay muted loop>
         <source src="{{ $video_two }}" type="video/webm">
     </video>
 </div>
