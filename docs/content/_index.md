@@ -27,8 +27,9 @@ ml_cur_moe.fit(train_samples, train_contexts)
 
 ## Citation
 If you find our work useful, please consider citing:
+
 ```BibTeX
-@Article{Li2023Curriculum,
+@INPROCEEDINGS{Li2023Curriculum,
   author = {Li, Maximilian Xiling 
             and Celik, Onur 
             and Becker, Philipp 
@@ -36,6 +37,7 @@ If you find our work useful, please consider citing:
             and Lioutikov, Rudolf 
             and Neumann, Gerhard},
   title  = {Curriculum-Based Imitation of Versatile Skills},
+  booktitle={2023 International Conference on Robotics and Automation (ICRA)},
   year   = {2023},
 }
 ```
