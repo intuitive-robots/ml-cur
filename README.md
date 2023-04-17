@@ -1,5 +1,21 @@
 # ml-cur
-ML-Cur Implementation
+
+
+<div align = center>
+
+[![Button page]][Link page]
+[![Button arxiv]][Link]
+<!----------------------------------------------------------------------------->
+[Link page]: https://intuitive-robots.github.io/ml-cur/
+[Button page]: https://img.shields.io/badge/Page-informational?style=for-the-badge&logoColor=white&logo=github
+
+
+<!----------------------------------------------------------------------------->
+[Link]: https://arxiv.org/abs/2304.05171
+[Button arxiv]: https://img.shields.io/badge/Arxiv-red?style=for-the-badge&logoColor=white&logo=adobeacrobatreader
+</div>
+
+### ML-Cur Implementation
 
 This is our implementation for ML-Cur, a curriculum based approach for fitting distributions. It was introduced in our work **Curriculum-Based Imitation of Versatile Skills**.
 
