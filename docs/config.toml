@@ -49,6 +49,7 @@ pygmentsCodeFences = true
   email = "maximilian.li@kit.edu"
 #  facebook = "username"
   github = "https://github.com/intuitive-robots/ml-cur"
+  pdf = "https://arxiv.org/abs/2304.05171"
 
 
 [[menu.main]]

@@ -11,8 +11,7 @@
           <li>
             {{ if or ( hasPrefix ( index $.Site.Author .id ) "http://" ) ( hasPrefix ( index $.Site.Author .id )
             "https://" ) }}
-            <a {{ if .rel }}rel="{{ .rel }}" {{- end -}} href="{{ printf " %s" (index $.Site.Author .id) }}"
-              title="{{ .title }}">
+            <a {{ if .rel }}rel="{{ .rel }}" {{- end -}} href="{{ ( index $.Site.Author .id) }}" title="{{ .title }}">
               {{ else }}
               <a {{ if .rel }}rel="{{ .rel }}" {{- end -}} href="{{ printf .url (index $.Site.Author .id) }}"
                 title="{{ .title }}">
@@ -80,7 +79,7 @@
   integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 {{- end }}
 
-<script src="{{ "js/main.js" | absURL }}"></script>
+<script src="{{ " js/main.js" | absURL }}"></script>
 {{- if .Site.Params.staticman }}
 <script src="{{ " js/staticman.js" | absURL }}"></script>
 {{- end }}
